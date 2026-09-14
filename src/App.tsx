@@ -17,7 +17,7 @@ const menu = [
 
 const reveal = {
   hidden: { opacity: 0, y: 36 },
-  visible: { opacity: 1, y: 0, transition: { duration: .75, ease: 'easeOut' } },
+  visible: { opacity: 1, y: 0, transition: { duration: .75 } },
 }
 
 function Logo() {
