@@ -35,11 +35,14 @@ function Cup() {
     <div className="sun-disc" />
     <div className="steam steam-one" />
     <div className="steam steam-two" />
-    <div className="cup">
-      <div className="coffee"><span /></div>
-      <div className="cup-symbol">⌁</div>
-    </div>
-    <div className="handle" />
+    <img
+      className="hero-cup-image"
+      src="/images/xicara-nevoa.webp"
+      alt=""
+      width="1374"
+      height="1145"
+      draggable="false"
+    />
     <div className="cup-shadow" />
   </motion.div>
 }
